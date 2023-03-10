@@ -1,7 +1,5 @@
 # PasswordGenerator
 
-# Password Generator
-
 - ### Generate a ramdom password
 
 ## User Story
