@@ -25,3 +25,4 @@
 - **THEN** a password is generated that matches the selected criteria
 - **WHEN** the password is generated
 - **THEN** the password is either displayed in an alert or written to the page
+![gn](https://user-images.githubusercontent.com/122133150/224871605-fddb1ca4-0bac-4420-b8d8-12bc3d13a831.JPG)
