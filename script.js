@@ -1,5 +1,4 @@
 var generateBtn = document.querySelector("#generate");
-//? Do i need this one? var upperChar = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 var lowerCha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 var specialChars = "~` !@#$%^&*()_-+={[}]|:;'<,>.?/"; 
 var space = [ ];
@@ -100,8 +99,7 @@ function writePassword() {
     // reaching into the html and grabbing the el w/ the id of password
     var passwordElement = document.querySelector("#password");
 
-    // console.log(passwordElement);
-    // console.dir(passwordElement);
+
     // insert the password i gen into the value property
     passwordElement.value = password;
 
@@ -109,7 +107,3 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword); 
-// {
-//     ps = generatePassword();
-//     document.getElementById("password").placeholder = ps;
-// }
